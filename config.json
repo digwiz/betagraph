@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://i.ibb.co/8KSzBgV/digwiz-rectangle-ombre-small.png",
+    "link": "",
+    "text": "Sam Charles"
+  },
+  "text": {
+    "more": "",
+    "intro": "Dans le cadre de la création du podcast Digwiz j\u0027ai invité les musicien.ne.s à ajouter leurs projets à une base de données (frama.link/digwizdata). Ce graph permet de visualiser le réseau des groupes et de leurs membres.",
+    "title": "DIGWIZ"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "     Nombre de connexions",
+    "nodeLabel": "Musicien.ne.s et groupes"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 4,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 4,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 3,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
